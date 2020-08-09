@@ -1,4 +1,4 @@
-FROM ubuntu:16.04 as opencv-builder
+FROM ubuntu:latest as opencv-builder
 MAINTAINER "Andrei Maksimov"
 
 RUN apt-get update && apt-get install -y wget ca-certificates \
